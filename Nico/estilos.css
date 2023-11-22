@@ -1,0 +1,58 @@
+header{
+  background-color: lightsalmon;
+  border-radius: 5px;
+  border-color: lightgrey;
+  border: 5px;
+}
+nav{
+  display: flex;
+  padding:20px, 5px, 10px, 5px;
+  margin: 10px;
+}
+
+li{
+  list-style: none;
+  padding: 20px, 5px, 10px, 5px;
+  margin: 8px  ;
+}
+
+aside {
+  width: 300px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.publi{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: black;
+  border: 5px;
+
+}  
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Esto es para centrar verticalmente en la página completa */
+}
+
+main {
+  flex: 1; /* El contenido principal tomará todo el espacio restante */
+  max-width: 800px; /* Puedes ajustar el ancho máximo según tus necesidades */
+  padding: 20px;
+  background-color: lightpink;
+}
+
+footer{
+  text-align: center;
+  background-color: lightblue;
+}
+article{
+  border: 5px;
+  border-color: lightgray;
+}
