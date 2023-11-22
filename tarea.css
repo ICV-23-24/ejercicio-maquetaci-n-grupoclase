@@ -1,0 +1,88 @@
+body {
+    background-color: #f4f4f4;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: "Playfair Display", serif;
+  }
+  
+  /* ---HEADER--- */
+  
+  header {
+    background-color: #349bda;
+    padding-top: 10px;
+    margin-bottom: 40px;
+  }
+  header h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  nav {
+    padding: 14px;
+    height: 40%;
+    background-color: #ecf0f1;
+  }
+  nav a {
+    font-weight: 700;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #3398db;
+  }
+  
+  /* --- CONTENIDO --- */
+  div.contenido {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 0;
+  }
+  
+  main {
+    background-color: white;
+    width: 60%;
+    padding: 20px;
+  }
+  
+  aside {
+    background-color: #ecf0f1;
+    width: 30%;
+    padding: 10px;
+  }
+  aside h2 {
+    padding-bottom: 15px;
+    color: #3398db;
+    border-bottom: 2px solid #3398db;
+  }
+  
+  .anuncios {
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    gap: 20px;
+  }
+  
+  .anuncio {
+    background-color: #d1f2eb;
+    text-align: left;
+    border-radius: 1rem;
+  }
+  
+  .anuncio p {
+    padding-left: 10px;
+  }
+  
+  /* --- FOOTER ---- */
+  footer {
+    background-color: #3398db;
+    padding: 8px;
+  }
+  
+  footer p {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+  
