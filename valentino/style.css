@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body
+{
+    margin: 2% 2.5%;
+    background-color: rgba(174, 169, 169, 0.474);
+}
+header,footer
+{
+    background-color: rgb(47, 165, 238);
+    height: 5%;
+    width: 100%;
+    color: white;
+}
+header
+{
+    font-size: 50px;
+    padding: 2% 0;
+    text-align: center;
+}
+footer
+{
+    font-size: 20px;
+    padding: 2% 0;
+    text-align: center;
+}
+nav ul li a
+{
+    color: rgba(49, 145, 186, 0.983);
+}
+.navigation
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 0px;
+    list-style: none;
+    background-color: rgba(123, 194, 238, 0.197);
+    padding: 10px;
+}
+.navigation li
+{
+    padding: 0.8%;
+}
+.navigation li:hover
+{
+    background-color: aqua;
+}
+.navigation li a
+{
+    text-decoration: none;
+}
+.box0
+{
+    display: flex;
+    margin: 2% 0 0 0;
+}
+.box1
+{
+    background-color: white;
+    margin: 0% 2% 0 0;
+    width: 80%;
+    padding: 3% 2%;
+}
+.box1 h1
+{
+    margin: 3% 0;
+}
+
+.box2
+{
+    background-color: rgba(123, 194, 238, 0.197);   
+    padding: 3% 1%;
+    border-radius: 10px;
+}
+.box2 h1
+{
+    border-bottom: 2px solid rgb(15, 182, 253);
+    color: rgb(15, 182, 253);
+    padding-bottom: 10px;
+}
+.box2 p
+{
+    background-color: rgba(98, 248, 183, 0.845);
+    padding: 3% 2%;
+    margin: 3% 0 3% 0;
+    border-radius: 5px;
+}
