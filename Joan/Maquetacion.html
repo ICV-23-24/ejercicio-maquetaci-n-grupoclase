@@ -5,29 +5,62 @@
     <style>
         header{
             text-align: center;
+            border:1px solid #076CE5;
+            background-color: #05B2F5;
             
         }
         .letra{
-            font-size: 30px;
-            padding:15px;
+            font-size: 40px;
+           
         }
-        .container{
-            display: inline-flex;
-            flex-direction: row;
-            margin-right:800px;
-            
-            
-            
-        }
-        .espacioDiv{
+      
+        .espacioNav{
             padding-left: 5px;
+            border:1px solid black;
+
+            display: flex;
         }
-        ul{
-            list-style: none;
-        }
-        .separacionDiv{
+       main{
+        display: flex;
+        flex-direction: row;
+        gap:200px;
+       }
+        .separacion{
             margin-top: 50px;
+            border:1px solid black;
+            display: block;
         }
+       aside{
+        margin-top: 45px;
+        
+       }
+       .divAside{
+        padding: 20px;
+        margin-right:80px ;
+       
+       }
+       aside{
+        float:right;
+        border:1px solid black;
+       }
+       .pHeader{
+       
+        margin-top: 30px;
+        word-spacing: 10px;
+        text-align: left;
+        
+        
+        
+       }
+       .pFooter{
+        border:1px solid black;
+        text-align: center;
+        font-size:20px;
+        padding:25px;
+       }
+       footer{
+        padding: 30px;
+       }
 
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,28 +69,69 @@
 <body>
     <header>
         <h1 class="letra">Lenguajes de Marcas</h1>
-        <div class="container">
-            <div class="espacioDiv">HTML</div>
-            <div class="espacioDiv">CSS</div>
-            <div class="espacioDiv">XML</div>
-            <div class="espacioDiv">XPath</div>
-        </div>
+       
     </header>
+    <nav class="espacioNav">
+           
+       <div>
+        <p class="pHeader">HTML CSS XML XPath</p>
+       </div>
+        
 
-    <div class="separacionDiv">
-       <ul>
-        <li class="tituloLi"><b>HTML</b>
-            <ul>
-                <li>
-                    HTML(HyperText Markup Language)es un lenguaje de marcas que se utuliza para estructurar contenido en la web.
-                    Permite definir la estructura y el significado de una página web etiquetas.
-                </li>
-            </ul>
+        
 
-        </li>
-       </ul>
-    </div>
+    </nav>
+    <main>
+     <section class="separacion">
+        <article>
+            <p><b>HTML</b></p>
+            <p>HTML(HyperText Markup Languaje)es un lenguaje de marcas que se utilizan para estructurar contenido en la web.<br>
+                Permite definir la estructura y el significado de una página web meduiante etiquetas.
+            </p>
+        </article>
 
+       <article>
+            <p><b>CSS</b></p>
+            <p>CSS(Cascading Style Sheets)es un lenguaje de marcas utilizado para dar estilo y presentacion a documentos
+                HTML.<br>Permite controlar la apariencia de los elementos de una página web.
+            </p>
+       </article>
+
+       <article>
+            <p><b>XML</b></p>
+            <p>XML(eXtensible Markup Language) es un lenguaje de marcas que se utiliza para almacenar y transportar datos.<br>Es
+                extensible y permite definir etiquetas personalizadas para estructurar información de manera jerárquica.
+            </p>
+       </article>
+
+        <article>
+            <p><b>XPath</b></p>
+            <p>XPath es un lenguaje de marcas utilizado para navegar y consultar documentos XML.<br>Permite seleccionador nodos 
+                especificos dentro de una estructura XML utilizando rutas de acceso.
+            </p>
+        </article>
+     </section>
+        
+            <aside>
+                <p>Anuncios</p>
+                <hr>
+                <div class="divAside">
+                    <p>¡Descubre las maravillas del diseño web con <br>
+                    HTML y CSS!</p>
+                </div>
+                <div class="divAside">
+                    <p>Explora el poder de XPath para procesar<br>
+                    datos en documentos XML.
+                    </p>
+                </div>
+        
+            </aside>
+        
+    </main>
+    <footer>
+        <p class="pFooter">&copy; 2023 Lenguaje de marcas.</p>
+    </footer>
+   
     
 </body>
 </html>
