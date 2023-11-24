@@ -42,3 +42,12 @@ nav ul li {
     padding: 8px;
     padding-inline: 10px;
 }
+
+nav a {
+    all: unset;
+    user-select: none;
+}
+
+nav a:hover {
+    cursor: pointer;
+}
