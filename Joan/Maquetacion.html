@@ -2,68 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <style>
-        header{
-            text-align: center;
-            border:1px solid #076CE5;
-            background-color: #05B2F5;
-            
-        }
-        .letra{
-            font-size: 40px;
-           
-        }
-      
-        .espacioNav{
-            padding-left: 5px;
-            border:1px solid black;
-
-            display: flex;
-        }
-       main{
-        display: flex;
-        flex-direction: row;
-        gap:200px;
-       }
-        .separacion{
-            margin-top: 50px;
-            border:1px solid black;
-            display: block;
-        }
-       aside{
-        margin-top: 45px;
-        
-       }
-       .divAside{
-        padding: 20px;
-        margin-right:80px ;
-       
-       }
-       aside{
-        float:right;
-        border:1px solid black;
-       }
-       .pHeader{
-       
-        margin-top: 30px;
-        word-spacing: 10px;
-        text-align: left;
-        
-        
-        
-       }
-       .pFooter{
-        border:1px solid black;
-        text-align: center;
-        font-size:20px;
-        padding:25px;
-       }
-       footer{
-        padding: 30px;
-       }
-
-    </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="estiloMaquetacion.css">
     <title>Maquetacion </title>
 </head>
 <body>
@@ -71,6 +11,7 @@
         <h1 class="letra">Lenguajes de Marcas</h1>
        
     </header>
+
     <nav class="espacioNav">
            
        <div>
@@ -81,56 +22,62 @@
         
 
     </nav>
-    <main>
-     <section class="separacion">
-        <article>
-            <p><b>HTML</b></p>
-            <p>HTML(HyperText Markup Languaje)es un lenguaje de marcas que se utilizan para estructurar contenido en la web.<br>
+    <div>
+ 
+        <main>
+        <section class="separacionColor">
+            <article>
+                <p class="pArticle"><b>HTML</b></p>
+                <p>HTML(HyperText Markup Languaje)es un lenguaje de marcas que se utilizan para estructurar contenido en la web.
                 Permite definir la estructura y el significado de una página web meduiante etiquetas.
-            </p>
-        </article>
+                </p>
+            </article>
 
        <article>
-            <p><b>CSS</b></p>
+            <p class="pArticle"><b>CSS</b></p>
             <p>CSS(Cascading Style Sheets)es un lenguaje de marcas utilizado para dar estilo y presentacion a documentos
-                HTML.<br>Permite controlar la apariencia de los elementos de una página web.
+                HTML.Permite controlar la apariencia de los elementos de una página web.
             </p>
        </article>
 
        <article>
-            <p><b>XML</b></p>
-            <p>XML(eXtensible Markup Language) es un lenguaje de marcas que se utiliza para almacenar y transportar datos.<br>Es
+            <p class="pArticle"><b>XML</b></p>
+            <p>XML(eXtensible Markup Language) es un lenguaje de marcas que se utiliza para almacenar y transportar datos.Es
                 extensible y permite definir etiquetas personalizadas para estructurar información de manera jerárquica.
             </p>
        </article>
 
         <article>
-            <p><b>XPath</b></p>
-            <p>XPath es un lenguaje de marcas utilizado para navegar y consultar documentos XML.<br>Permite seleccionador nodos 
+            <p class="pArticle"><b>XPath</b></p>
+            <p>XPath es un lenguaje de marcas utilizado para navegar y consultar documentos XML.Permite seleccionador nodos 
                 especificos dentro de una estructura XML utilizando rutas de acceso.
             </p>
         </article>
      </section>
         
             <aside>
-                <p>Anuncios</p>
-                <hr>
-                <div class="divAside">
-                    <p>¡Descubre las maravillas del diseño web con <br>
-                    HTML y CSS!</p>
+                <div class="divAnuncio">
+                    <p class="pAnuncio"><b>Anuncios</b></p>
+                    <hr>
                 </div>
+
                 <div class="divAside">
-                    <p>Explora el poder de XPath para procesar<br>
-                    datos en documentos XML.
+                    <p class="pAside"><b>¡Descubre las maravillas del diseño web con <br>
+                    HTML y CSS!</b></p>
+                </div>
+                <div class="divAside2">
+                    <p class="pAside"><b>Explora el poder de XPath para procesar<br>
+                    datos en documentos XML.</b>
                     </p>
                 </div>
         
             </aside>
         
-    </main>
-    <footer>
-        <p class="pFooter">&copy; 2023 Lenguaje de marcas.</p>
-    </footer>
+        </main>
+        <footer>
+            <p class="pFooter">&copy; 2023 Lenguaje de marcas.</p>
+        </footer>
+    </div>
    
     
 </body>
