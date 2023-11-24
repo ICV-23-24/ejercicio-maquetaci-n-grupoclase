@@ -16,6 +16,14 @@ li{
   margin: 8px  ;
 }
 
+.container{
+  grid-template-columns: 4fr 1fr;
+  grid-template-areas:
+      header  header
+      main    aside
+      footer  footer 
+  ;
+}
 
 body{
   margin:20px ;
