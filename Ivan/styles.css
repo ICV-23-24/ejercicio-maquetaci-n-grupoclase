@@ -13,36 +13,40 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 300px;
-    grid-template-rows: repeat(1, auto);
+    grid-template-columns: 1fr 380px;
     gap: 2px;
     min-height: 100svh;
     gap: var(--gap);
 }
 
 main > section {
-    grid-column: 1 / 2 ;
+    grid-column: 1 span 2 ;
     background-color: white;
     padding: 10px;
 }
 
 aside {
     background-color: aliceblue;
-    grid-column: 2 / 3;
+    grid-column: 2 span 3;
     padding: 15px;
     
 }
 
 #anuncios h1 {
-    border-bottom: 1px solid blue;
+    color: dodgerblue;
+    border-bottom: 1px solid dodgerblue;
     padding-bottom: 2px;
 }
 
 #anuncios article {
     background-color: hsl(167, 56%, 88%);
-    padding: 2px;
+    padding: 8px;
     margin-block: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+#anuncios article p {
+    margin-block: 6px;
 }
 
 footer {
