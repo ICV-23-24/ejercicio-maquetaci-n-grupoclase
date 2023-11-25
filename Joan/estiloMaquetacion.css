@@ -100,10 +100,12 @@ margin-bottom: 20px;
 }
 hr{
     border:2px solid#0F95E9; 
+    
 }
 .pAnuncio{
     font-size: 25px;
     letter-spacing: 1px;
+    color:#0F95E9;
 }
 article{
     margin-right: 100px;
