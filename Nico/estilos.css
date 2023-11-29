@@ -1,0 +1,66 @@
+header{
+  background-color: lightsalmon;
+  border-radius: 5px;
+  border-color: lightgrey;
+  border: 5px;
+}
+nav{
+  display: flex;
+  padding:20px, 5px, 10px, 5px;
+  margin: 10px;
+}
+
+li{
+  list-style: none;
+  padding: 20px, 5px, 10px, 5px;
+  margin: 8px  ;
+}
+
+aside{
+ 
+  width: 300px;
+  position: relative;
+  top: 0;
+  right: 0;
+  height: 50%;
+  background-color: lightgray;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  border: 1px;
+  
+}
+.publi{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: black;
+  border: 5px;
+
+}  
+
+body{
+  margin:20px ;
+  padding: 5px, 20px, 10px, 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  /*flex: 1; /* El contenido principal tomará todo el espacio restante */
+  max-width: 800px; /* Puedes ajustar el ancho máximo según tus necesidades */
+  padding: 20px;
+  background-color: lightpink;
+  
+}
+
+
+
+footer{
+  text-align: center;
+  background-color: lightblue;
+}
+aside article{
+  border: 5px;
+  border-color: gray;
+}
